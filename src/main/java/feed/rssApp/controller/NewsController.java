@@ -1,11 +1,11 @@
-package feed.rssapp.controller;
+package feed.rssApp.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import feed.rssapp.dto.NewsItemDto;
-import feed.rssapp.dto.Validate;
-import feed.rssapp.model.NewsItem;
-import feed.rssapp.repositories.NewsRepository;
-import feed.rssapp.service.FeedService;
+import feed.rssApp.dto.NewsItemDto;
+import feed.rssApp.dto.Validate;
+import feed.rssApp.model.NewsItem;
+import feed.rssApp.repositories.NewsRepository;
+import feed.rssApp.service.FeedService;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

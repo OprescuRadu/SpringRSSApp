@@ -1,4 +1,4 @@
-package feed.rssapp.model;
+package feed.rssApp.model;
 
 import jakarta.persistence.*;
 import java.util.Date;

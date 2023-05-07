@@ -1,6 +1,6 @@
-package feed.rssapp.service;
+package feed.rssApp.service;
 
-import feed.rssapp.dto.NewsItemDto;
+import feed.rssApp.dto.NewsItemDto;
 import java.util.List;
 
 public interface FeedService {

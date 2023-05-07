@@ -1,4 +1,4 @@
-package feed.rssapp;
+package feed.rssApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

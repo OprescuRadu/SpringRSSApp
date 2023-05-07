@@ -1,4 +1,4 @@
-package feed.rssapp.dto;
+package feed.rssApp.dto;
 
 public class Validate {
 

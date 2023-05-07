@@ -1,4 +1,4 @@
-package feed.rssapp.service;
+package feed.rssApp.service;
 
 import com.rometools.rome.feed.synd.SyndFeed;
 import com.rometools.rome.io.SyndFeedInput;

@@ -1,4 +1,4 @@
-package feed.rssapp;
+package feed.rssApp;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.SpringApplication;

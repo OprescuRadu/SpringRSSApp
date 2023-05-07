@@ -1,6 +1,6 @@
-package feed.rssapp.repositories;
+package feed.rssApp.repositories;
 
-import feed.rssapp.model.NewsItem;
+import feed.rssApp.model.NewsItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 

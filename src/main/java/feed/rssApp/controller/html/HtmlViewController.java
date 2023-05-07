@@ -1,7 +1,7 @@
-package feed.rssapp.controller.html;
+package feed.rssApp.controller.html;
 
-import feed.rssapp.dto.NewsItemDto;
-import feed.rssapp.service.FeedService;
+import feed.rssApp.dto.NewsItemDto;
+import feed.rssApp.service.FeedService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

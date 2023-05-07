@@ -1,8 +1,8 @@
-package feed.rssapp.service;
+package feed.rssApp.service;
 
 import com.rometools.rome.feed.synd.SyndEntry;
 import com.rometools.rome.feed.synd.SyndFeed;
-import feed.rssapp.dto.NewsItemDto;
+import feed.rssApp.dto.NewsItemDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
