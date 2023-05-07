@@ -1,6 +1,5 @@
 # SpringRSSApp
 
-Java Spring Boot API that provides a way to parse RSS feeds and store the news items in a database. The API allows users to search 
- for news items by keyword and sort the news items by title or publication date. 
+Java Spring Boot API for parsing an RSS feed. The API allows users to search the news items by keyword, sort by title or publication date and store them in a database. The database can also be browsed using H2 Database. The HTML template is written in Thymeleaf.
 
  
