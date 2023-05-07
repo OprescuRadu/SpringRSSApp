@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>News</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Publication Date</th>
+        <th>Link</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="newsItem : ${newsItems}">
+        <td th:text="${newsItem.title}"></td>
+        <td th:text="${newsItem.description}"></td>
+        <td th:text="${newsItem.publicationDate}"></td>
+        <td th:text="${newsItem.link}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
