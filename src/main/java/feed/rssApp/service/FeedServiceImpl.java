@@ -3,7 +3,6 @@ package feed.rssApp.service;
 import com.rometools.rome.feed.synd.SyndEntry;
 import com.rometools.rome.feed.synd.SyndFeed;
 import feed.rssApp.dto.NewsItemDto;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -12,8 +11,11 @@ import java.util.List;
 @Service
 public class FeedServiceImpl implements FeedService {
 
-    @Autowired
-    private FeedClientService feed;
+    private final FeedClientService feed;
+
+    public FeedServiceImpl(FeedClientService feedClientService){
+        this.feed = feedClientService;
+    }
 
     @Override
     public List<NewsItemDto> parse() throws Exception {

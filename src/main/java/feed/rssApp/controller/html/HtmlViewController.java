@@ -25,6 +25,6 @@ public class HtmlViewController {
     public String getNews(Model model) throws Exception {
         List<NewsItemDto> newsItems = feedService.parse();
         model.addAttribute("newsItems", newsItems);
-        return "News";
+        return "news";
     }
 }

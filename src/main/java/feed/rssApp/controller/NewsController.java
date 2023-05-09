@@ -23,15 +23,15 @@ import static java.util.Comparator.comparing;
 public class NewsController {
 
     Logger logger = LoggerFactory.getLogger(NewsController.class);
-    @Autowired
-    private ObjectMapper objectMapper;
+    private final ObjectMapper objectMapper;
     private final FeedService news;
     private final NewsRepository newsRepository;
 
     @Autowired
-    public NewsController(FeedService news, NewsRepository newsRepository) {
+    public NewsController(FeedService news, NewsRepository newsRepository, ObjectMapper objectMapper) {
         this.news = news;
         this.newsRepository = newsRepository;
+        this.objectMapper = objectMapper;
     }
 
     @GetMapping("/sort")

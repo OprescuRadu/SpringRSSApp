@@ -11,9 +11,4 @@ public class SpringRssApp {
     public static void main(String[] args) {
         SpringApplication.run(SpringRssApp.class, args);
     }
-
-    @Bean
-    public ObjectMapper objectMapper() {
-        return new ObjectMapper();
-    }
 }
